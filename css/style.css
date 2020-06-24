@@ -360,6 +360,7 @@ resume.html STYLING
 
 .resume-container {
 	margin: auto;
+	max-width: 800px;
 }
 
 .resume {
@@ -610,6 +611,14 @@ resume.html STYLING
 
 	/* --- resume.html STYLING --- */
 
+	.resume {
+    padding: 4% 10% 4% 10%;
+	}
+
+	.skills {
+		 padding: 3% 0% 2% 15%;
+		 margin-bottom: 2%;
+	}
 }
 
 /*-------------END 850px MEDIA QUERY-----------------*/
