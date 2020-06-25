@@ -416,6 +416,52 @@ resume.html STYLING
 	padding: 2% 0 2% 4%;
 }
 
+/*------------------------------------------------
+
+resume.html STYLING
+
+-------------------------------------------------*/
+
+.contact {
+	text-align: center;
+	background-color: #808080;
+	width: 100%;
+	max-width: 500px;
+	color: white;
+	margin: 10% auto;
+	padding: 5% 0 5% 0;
+	border-radius: 4px;
+	box-shadow: 5px 5px 10px darkgray;
+}
+
+.label-input {
+	display: block;
+}
+
+.input {
+	padding: 4%;
+}
+
+input,
+textarea {
+  padding: 4%;
+  border-radius: 4px;
+  font-family: sans-serif;
+  background-color: white;
+  text-align: center;
+}
+
+textarea {
+	width: 90%;
+	max-width: 400px;
+}
+
+.submit input:hover {
+  color: white;
+  background-color: #6fdcd8;
+  transition: .2s;
+}
+
 
 /*-------------START 450px MEDIA QUERY-----------------*/
 
@@ -435,6 +481,12 @@ resume.html STYLING
 
 	.resume article {
 		margin: 0 0 2% 0;
+	}
+
+	/* --- contact.html STYLING --- */
+
+	.input {
+		padding: 2%;
 	}
 }
 
@@ -650,6 +702,13 @@ resume.html STYLING
 
 	.about-content {
 		padding: 2% 10% 8% 10%;
+	}
+
+	/* contact.html Styling */
+
+	.contact {
+		margin: 5% auto;
+		padding: 2% 0 2% 0;
 	}
 }
 

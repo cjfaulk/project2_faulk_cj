@@ -64,7 +64,32 @@
     </header>
 
     <main>
+      <section class="contact">
+        <h1>Feel free to reach out!</h1>
 
+        <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+        <div class="name input">
+          <label for="name" class="label-input">Name:</label>
+          <input type="text" name="req_name" id="name" />
+        </div>
+
+        <div class="email input">
+          <label for="email" class="label-input">Email:</label>
+          <input type="email" name="req_email" id="email" />
+        </div>
+
+        <div class="comments input">
+          <label for="comments" class="label-input">Message:</label>
+          <textarea name="req_comments" id="comments" cols="55" rows="15" placeholder="Send me a message!"></textarea>
+        </div>
+
+        <div class="submit input">
+          <input type="submit" value="Send" />
+        </div>
+
+        </form>
+      </section>
     </main>
 
     <footer>
