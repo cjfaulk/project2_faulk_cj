@@ -405,11 +405,17 @@ resume.html STYLING
 }
 
 .skills {
-	padding: 10% 15% 10% 15%;
 	color: white;
 	background-color: #808080;
-	flex-grow: 1;
+	max-width: 640px;
+	margin: auto;
+	margin-bottom: 4%;
 }
+
+.skills-text {
+	padding: 2% 0 2% 4%;
+}
+
 
 /*-------------START 450px MEDIA QUERY-----------------*/
 
@@ -424,6 +430,8 @@ resume.html STYLING
 	.index-content aside {
 		margin: 5% 10% 10%;
 	}
+
+	/* --- resume.html STYLING --- */
 
 	.resume article {
 		margin: 0 0 2% 0;
@@ -548,9 +556,6 @@ resume.html STYLING
 	  padding: 5% 10% 5% 10%;
 	}
 
-	.skills {
-		 padding: 5% 15% 5% 15%;
-	}
 
 /*-------------END 600px MEDIA QUERY-------------------*/
 
@@ -601,6 +606,8 @@ resume.html STYLING
 
 @media (min-width: 850px) {
 
+	/* --- index.html STYLING --- */
+
 	.index-content aside {
 		margin: 2% auto;
 	}
@@ -613,11 +620,6 @@ resume.html STYLING
 
 	.resume {
     padding: 4% 10% 4% 10%;
-	}
-
-	.skills {
-		 padding: 3% 0% 2% 15%;
-		 margin-bottom: 2%;
 	}
 }
 
