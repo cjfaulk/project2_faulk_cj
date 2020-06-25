@@ -25,7 +25,11 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
 
+    <!--jQuery-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
     <!-- CSS -->
+      <link href="css/lightbox.css" type="text/css" rel="stylesheet" />
       <link href="css/style.css" type="text/css" rel="stylesheet"/>
 
     <!--[if lt IE 9]>
@@ -64,6 +68,73 @@
     </header>
 
     <main>
+      <section class="gallery">
+        <h1>My Favorite Places to Visit!</h1>
+
+        <h2>Italy</h2>
+        <article class="photo-container">
+          <div class="images-holder">
+            <a href="images/italy1.jpeg" data-lightbox="italy" data-title="Italy | May 2018"><img class="individual-gallery-image" src="images/italy1-thumb.png" alt="Italy" /></a>
+
+            <a href="images/italy2.jpeg" data-lightbox="italy" data-title="Italy | May 2018"><img class="individual-gallery-image" src="images/italy2-thumb.png" alt="Italy" /></a>
+
+            <a href="images/italy3.jpeg" data-lightbox="italy" data-title="Italy | May 2018"><img class="individual-gallery-image" src="images/italy3-thumb.png" alt="Italy" /></a>
+
+            <a href="images/italy4.jpeg" data-lightbox="italy" data-title="Italy | May 2018"><img class="individual-gallery-image" src="images/italy4-thumb.png" alt="Italy" /></a>
+
+            <a href="images/italy5.jpeg" data-lightbox="italy" data-title="Italy | May 2018"><img class="individual-gallery-image" src="images/italy5-thumb.png" alt="Italy" /></a>
+          </div>
+        </article>
+
+        <h2>Michigan</h2>
+        <article class="photo-container">
+          <div class="images-holder">
+            <a href="images/michigan2.jpeg" data-lightbox="michigan" data-title="Northern Michigan"><img class="individual-gallery-image" src="images/michigan2-thumb.png" alt="Michigan" /></a>
+
+            <a href="images/michigan3.jpeg" data-lightbox="michigan" data-title="Northern Michigan"><img class="individual-gallery-image" src="images/michigan3-thumb.png" alt="Michigan" /></a>
+
+            <a href="images/michigan4.jpg" data-lightbox="michigan" data-title="Northern Michigan"><img class="individual-gallery-image" src="images/michigan4-thumb.png" alt="Michigan" /></a>
+
+            <a href="images/michigan5.jpeg" data-lightbox="michigan" data-title="Northern Michigan"><img class="individual-gallery-image" src="images/michigan5-thumb.png" alt="Michigan" /></a>
+
+            <a href="images/michigan6.jpeg" data-lightbox="michigan" data-title="Northern Michigan"><img class="individual-gallery-image" src="images/michigan6-thumb.png" alt="Michigan" /></a>
+
+            <a href="images/michigan1.jpeg" data-lightbox="michigan" data-title="Northern Michigan"><img class="individual-gallery-image" src="images/michigan1-thumb.png" alt="Michigan" /></a>
+
+            <a href="images/michigan7.jpeg" data-lightbox="michigan" data-title="Northern Michigan"><img class="individual-gallery-image" src="images/michigan7-thumb.png" alt="Michigan" /></a>
+          </div>
+        </article>
+
+        <h2>New York City</h2>
+        <article class="photo-container">
+          <div class="images-holder">
+            <a href="images/nyc.jpg" data-lightbox="nyc" data-title="New York City"><img class="individual-gallery-image" src="images/nyc-thumb.png" alt="NYC" /></a>
+
+            <a href="images/nyc1.jpeg" data-lightbox="nyc" data-title="New York City"><img class="individual-gallery-image" src="images/nyc1-thumb.png" alt="NYC" /></a>
+
+            <a href="images/nyc2.jpeg" data-lightbox="nyc" data-title="New York City"><img class="individual-gallery-image" src="images/nyc2-thumb.png" alt="NYC" /></a>
+
+            <a href="images/nyc3.jpeg" data-lightbox="nyc" data-title="New York City"><img class="individual-gallery-image" src="images/nyc3-thumb.png" alt="NYC" /></a>
+
+            <a href="images/nyc4.jpeg" data-lightbox="nyc" data-title="New York City"><img class="individual-gallery-image" src="images/nyc4-thumb.png" alt="NYC" /></a>
+
+            <a href="images/nyc5.jpg" data-lightbox="nyc" data-title="New York City | Levain Bakery Cookies - an NYC must-have!"><img class="individual-gallery-image" src="images/nyc5-thumb.png" alt="NYC" /></a>
+          </div>
+        </article>
+
+        <h2>The Beach</h2>
+        <article class="photo-container">
+          <div class="images-holder">
+            <a href="images/beach1.jpeg" data-lightbox="beach" data-title="Florida Beaches"><img class="individual-gallery-image" src="images/beach1-thumb.png" alt="Beach" /></a>
+
+            <a href="images/beach2.jpeg" data-lightbox="beach" data-title="Florida Beaches"><img class="individual-gallery-image" src="images/beach2-thumb.png" alt="Beach" /></a>
+
+            <a href="images/beach3.jpg" data-lightbox="beach" data-title="Florida Beaches"><img class="individual-gallery-image" src="images/beach3-thumb.png" alt="Beach" /></a>
+
+            <a href="images/beach4.jpg" data-lightbox="beach" data-title="Florida Beaches"><img class="individual-gallery-image" src="images/beach4-thumb.png" alt="Beach" /></a>
+          </div>
+        </article>
+      </section>
 
     </main>
 
@@ -111,6 +182,9 @@
       <p id="copyright">&copy; CJ Faulk 2020</p>
 
     </footer>
+
+    <!--JS for LightBox -->
+    <script src="js/lightbox.js"></script>
 
   </body>
 
