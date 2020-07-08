@@ -162,7 +162,7 @@ body {
 
 main {
   flex: 1;
-	padding-top: 20vh;
+	padding-top: 25vh;
 }
 
 /*----------END STICKY FOOTER----------------------*/
@@ -176,9 +176,13 @@ HEADER STYLING
 header {
   text-align: center;
   height: 20vh;
+	min-height: 150px;
 	width: 100%;
 	background-color: white;
 	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 header img {
@@ -579,6 +583,7 @@ travel.html STYLING
 	header {
 		height: 25vh;
 		padding-top: 5%;
+		min-height: 180px;
 	}
 
 	.menu {
@@ -631,16 +636,15 @@ travel.html STYLING
 		padding: 0 1.5% 0 1.5%;
 	}
 
+	.desktop-footer .socials img:hover {
+		-webkit-transform: scale(1.1) rotate(4deg);
+		transform: scale(1.1) rotate(4deg);
+	}
+
 	/* --- BODY STYLING --- */
 
 	body {
 		font-size: 1rem;
-	}
-
-	/* --- MAIN STYLING --- */
-
-	main {
-		padding-top: 25vh;
 	}
 
 	/* --- index.html STYLING --- */

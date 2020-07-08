@@ -5,9 +5,3 @@ $(document).ready(function(){
     dots: true
   });
 });
-
-// $('.etsy-slider').slick({
-//   infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3
-// });
